@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setup Avenir – Informatique Montmorency</title>
+  <meta name="description" content="Réparation PC, récupération de données et dépannage informatique à Montmorency depuis 20 ans. Ouvert du mardi au samedi 10h30–19h et le lundi 10h30–13h.">
+  <link rel="icon" type="image/png" href="images/logo_transparent.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">☰</button>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <div class="sidebar-logo">
+    <img src="images/logo_transparent.png" alt="Setup Avenir Logo">
+    <div class="sidebar-logo-text">Setup Avenir</div>
+    <div class="sidebar-logo-sub">Montmorency</div>
+  </div>
+  <nav class="sidebar-nav">
+    <a href="index.html" class="active"><span class="icon">🏠</span> Accueil</a>
+    <a href="prestation.html"><span class="icon">🔧</span> Prestations</a>
+    <a href="montage.html"><span class="icon">🖥️</span> Montage</a>
+    <a href="recuperationdonnees.html"><span class="icon">💾</span> Récupération</a>
+    <a href="apropos.html"><span class="icon">ℹ️</span> À Propos</a>
+    <a href="contact.html"><span class="icon">📍</span> Contact</a>
+  </nav>
+  <div class="sidebar-contact">
+    <p>Nous contacter</p>
+    <a href="tel:0134126182" class="phone">📞 01 34 12 61 82</a>
+    <p class="availability-note">Les clients peuvent passer un appel au 01 34 12 61 82 24h sur 24.</p>
+    <div class="sidebar-hours">
+      Mar–Sam 10h30–19h<br>
+      Lun 10h30–13h<br>
+      Dim fermé
+    </div>
+  </div>
+</aside>
+
+<!-- MAIN -->
+<main class="main-content">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Expert Informatique à Montmorency</div>
+      <h1 class="hero-title">Setup<br><span>Avenir</span></h1>
+      <p class="hero-subtitle">Votre spécialiste PC depuis 20 ans</p>
+      <p class="hero-desc">Réparation, montage, récupération de données, dépannage à domicile — une expertise reconnue par des centaines de clients satisfaits dans le Val-d'Oise.</p>
+      <p class="availability-note" style="margin: 0 0 20px; color: #f6e8a8;">Les clients peuvent passer un appel au <a href="tel:0134126182" style="color:var(--or)">01 34 12 61 82</a> 24h sur 24.</p>
+      <div class="hero-cta">
+        <a href="prestation.html" class="btn-primary">Nos Prestations</a>
+        <a href="recuperationdonnees.html" class="btn-secondary">Récupération Données</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Ans d'expertise</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">★★★★★</div>
+        <div class="stat-label">Google Reviews</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Satisfaction client</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFOS RAPIDES -->
+  <div class="info-band">
+    <div class="info-item">
+      <div class="icon">🔧</div>
+      <h3>Réparation Rapide</h3>
+      <p>Diagnostic gratuit sur unités centrales uniquement</p>
+    </div>
+    <div class="info-item">
+      <div class="icon">💾</div>
+      <h3>Récupération de Données</h3>
+      <p>Disques durs, SSD, cartes SD, clés USB</p>
+    </div>
+    <div class="info-item">
+      <div class="icon">🏠</div>
+      <h3>Dépannage à Domicile</h3>
+      <p>Intervention dans un rayon de 300 m (GPS)</p>
+    </div>
+    <div class="info-item">
+      <div class="icon">⏰</div>
+      <h3>Mar – Sam : 10h30–19h</h3>
+      <p>Lun : 10h30–13h • 85 Rue des Chesneaux, 95160 Montmorency</p>
+    </div>
+  </div>
+
+  <!-- SERVICES PHARES -->
+  <section>
+    <div class="section-label">Ce que nous faisons</div>
+    <h2 class="section-title">Nos Services Principaux</h2>
+    <p class="section-desc">De la simple panne à la récupération de données complexe, nous accompagnons particuliers et professionnels.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="images/maintenance.jpg" alt="Réparation PC">
+        <h3>Réparation & Maintenance</h3>
+        <p>Diagnostic, remplacement de pièces, nettoyage, changement de pâte thermique — tout pour redonner vie à votre machine.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/disquedur.jpg" alt="Récupération données">
+        <h3>Récupération de Données</h3>
+        <p>Votre disque dur est mort, formaté ou corrompu ? Nous récupérons vos fichiers sur HDD, SSD, M.2, SD card, clés USB et plus encore.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/pcgameur.jpg" alt="PC Gaming">
+        <h3>PC Gamer & Configuration</h3>
+        <p>Montage PC sur mesure, configuration gaming, devis personnalisé pour des performances optimales selon votre budget.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/pcarriere.jpg" alt="Installation Windows">
+        <h3>Installation & Formatage</h3>
+        <p>Installation Windows 10/11 (même sur PC non-compatible), formatage, réinitialisation, installation drivers et Pack Office.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📠</div>
+        <h3>Scan, Copies & Impressions</h3>
+        <p>Besoin d'un scan ou d'une impression ? Le magasin propose aussi ce service pratique.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🏠</div>
+        <h3>Dépannage à Domicile</h3>
+        <p>Intervention rapide à moins de 300 m du magasin (GPS) pour les dépannages urgents chez vous.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="about-grid">
+      <img src="images/devanturebis.jpg" alt="Devanture Setup Avenir" class="about-img">
+      <div class="about-text">
+        <div class="section-label">Notre histoire</div>
+        <h2>20 ans de confiance<br><span>dans le Val-d'Oise</span></h2>
+        <p>Depuis plus de 20 ans, Setup Avenir est l'adresse de référence pour l'informatique à Montmorency et ses alentours. Nous nous sommes forgé une réputation solide grâce à un service rigoureux, transparent et accessible à tous.</p>
+        <p>Particuliers, familles, étudiants, petites entreprises — nous avons réparé, configuré et sauvegardé des milliers de machines. Notre priorité : vous rendre votre outil de travail (et de loisir) en parfait état, au meilleur prix.</p>
+        <div class="google-stars">
+          <div class="stars">★★★★★</div>
+          <div class="google-text"><strong>Excellente note Google</strong><br>Des centaines de clients satisfaits en témoignent</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div>
+    <h4>Setup Avenir</h4>
+    <p>Expert informatique à Montmorency depuis 20 ans.<br>Réparation, dépannage, récupération de données.</p>
+    <p style="margin-top:10px; color: var(--or);">★★★★★ Excellent sur Google</p>
+  </div>
+  <div>
+    <h4>Liens Rapides</h4>
+    <a href="prestation.html" style="display:block">Prestations</a>
+    <a href="montage.html" style="display:block">Montage PC</a>
+    <a href="recuperationdonnees.html" style="display:block">Récupération Données</a>
+    <a href="contact.html" style="display:block">Contact</a>
+  </div>
+  <div>
+    <h4>Contact</h4>
+    <p>85 Rue des Chesneaux<br>95160 Montmorency</p>
+    <p><a href="tel:0134126182" style="color:var(--or)">01 34 12 61 82</a></p>
+    <p>Mar–Sam : 10h30–19h<br>Lun : 10h30–13h</p>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <span>© 2026 Setup Avenir – Montmorency</span>
+  <span>Tous droits réservés</span>
+</div>
+
+<script>
+  document.querySelectorAll('.sidebar a').forEach(a => {
+    if (a.href === location.href) a.classList.add('active');
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Horaires – Setup Avenir Montmorency</title>
+  <link rel="icon" type="image/png" href="images/logo_transparent.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">☰</button>
+
+<aside class="sidebar">
+  <div class="sidebar-logo">
+    <img src="images/logo_transparent.png" alt="Setup Avenir Logo">
+    <div class="sidebar-logo-text">Setup Avenir</div>
+    <div class="sidebar-logo-sub">Montmorency</div>
+  </div>
+  <nav class="sidebar-nav">
+    <a href="index.html"><span class="icon">🏠</span> Accueil</a>
+    <a href="prestation.html"><span class="icon">🔧</span> Prestations</a>
+    <a href="montage.html"><span class="icon">🖥️</span> Montage</a>
+    <a href="recuperationdonnees.html"><span class="icon">💾</span> Récupération</a>
+    <a href="apropos.html"><span class="icon">ℹ️</span> À Propos</a>
+    <a href="contact.html" class="active"><span class="icon">📍</span> Contact</a>
+  </nav>
+  <div class="sidebar-contact">
+    <p>Nous contacter</p>
+    <a href="tel:0134126182" class="phone">📞 01 34 12 61 82</a>
+    <p class="availability-note">Les clients peuvent passer un appel au 01 34 12 61 82 24h sur 24.</p>
+    <div class="sidebar-hours">Mar–Sam 10h30–19h<br>Lun 10h30–13h<br>Dim fermé</div>
+  </div>
+</aside>
+
+<main class="main-content">
+
+  <div class="page-header">
+    <h1>Contact & <span>Horaires</span></h1>
+    <p>Venez nous voir en magasin, appelez-nous ou retrouvez-nous sur Google Maps.</p>
+  </div>
+
+  <section>
+    <div class="contact-grid">
+
+      <div>
+        <div class="contact-info-block">
+          <h2>Nous Trouver</h2>
+
+          <div class="contact-row">
+            <span class="icon">📍</span>
+            <div class="contact-detail">
+              <strong>Adresse</strong>
+              <p>85 Rue des Chesneaux<br>95160 Montmorency</p>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <span class="icon">📞</span>
+            <div class="contact-detail">
+              <strong>Téléphone Fixe</strong>
+              <a href="tel:0134126182">01 34 12 61 82</a>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <span class="icon">🕐</span>
+            <div class="contact-detail">
+              <strong>Horaires d'Ouverture</strong>
+              <p>
+                Lundi : 10h30 – 13h<br>
+                Mardi : 10h30 – 19h<br>
+                Mercredi : 10h30 – 19h<br>
+                Jeudi : 10h30 – 19h<br>
+                Vendredi : 10h30 – 19h<br>
+                Samedi : 10h30 – 19h<br>
+                <span style="color:var(--bronze)">Dimanche : Fermé</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.8!2d2.3230!3d48.9880!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66c7d4bbfe95b%3A0x7d5b8f2a3b8e0e8d!2s85%20Rue%20des%20Chesneaux%2C%2095160%20Montmorency!5e0!3m2!1sfr!2sfr!4v1700000000000"
+              allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="contact-info-block" style="margin-bottom:24px">
+          <h2>Services Complémentaires</h2>
+          <p style="color:var(--texte2); margin-bottom:20px;">En plus de la réparation informatique, Setup Avenir propose également :</p>
+          <div class="services-extra">
+            <h3>📠 Scans, Photocopies & Impressions</h3>
+            <ul>
+              <li>Numérisation de documents (scan)</li>
+              <li>Photocopies noir & blanc et couleur</li>
+              <li>Impressions de documents</li>
+            </ul>
+          </div>
+          <div class="services-extra" style="margin-top:16px">
+            <h3>🏠 Dépannage à Domicile</h3>
+            <ul>
+              <li>Intervention dans un rayon de 300 m (GPS)</li>
+              <li>Configuration réseau, périphériques</li>
+              <li>Dépannage antivirus, logiciels</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="contact-info-block">
+          <h2>⭐ Avis Clients Google</h2>
+          <p style="color:var(--texte2);margin-bottom:16px;">Nos clients nous font confiance depuis 20 ans. Consultez les avis Google pour lire leurs témoignages.</p>
+          <div class="google-stars">
+            <div class="stars">★★★★★</div>
+            <div class="google-text"><strong>Excellente note</strong><br>Des centaines de clients satisfaits</div>
+          </div>
+          <p style="color:var(--texte2);font-size:13px;margin-top:16px;">Le meilleur gage de qualité, c'est la satisfaction de nos clients. N'hésitez pas à laisser votre avis après votre passage !</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div>
+    <h4>Setup Avenir</h4>
+    <p>Expert informatique à Montmorency depuis 20 ans.</p>
+  </div>
+  <div>
+    <h4>Navigation</h4>
+    <a href="prestation.html" style="display:block">Prestations</a>
+    <a href="recuperationdonnees.html" style="display:block">Récupération Données</a>
+    <a href="montage.html" style="display:block">Montage PC</a>
+  </div>
+  <div>
+    <h4>Contact</h4>
+    <p>85 Rue des Chesneaux, 95160 Montmorency</p>
+    <p><a href="tel:0134126182" style="color:var(--or)">01 34 12 61 82</a></p>
+    <p>Mar–Sam : 10h30–19h<br>Lun : 10h30–13h</p>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <span>© 2026 Setup Avenir – Montmorency</span>
+  <span>Tous droits réservés</span>
+</div>
+</body>
+</html>

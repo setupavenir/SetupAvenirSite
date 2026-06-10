@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Récupération de Données – Setup Avenir Montmorency</title>
+  <link rel="icon" type="image/png" href="images/logo_transparent.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">☰</button>
+
+<aside class="sidebar">
+  <div class="sidebar-logo">
+    <img src="images/logo_transparent.png" alt="Setup Avenir Logo">
+    <div class="sidebar-logo-text">Setup Avenir</div>
+    <div class="sidebar-logo-sub">Montmorency</div>
+  </div>
+  <nav class="sidebar-nav">
+    <a href="index.html"><span class="icon">🏠</span> Accueil</a>
+    <a href="prestation.html"><span class="icon">🔧</span> Prestations</a>
+    <a href="montage.html"><span class="icon">🖥️</span> Montage</a>
+    <a href="recuperationdonnees.html" class="active"><span class="icon">💾</span> Récupération</a>
+    <a href="apropos.html"><span class="icon">ℹ️</span> À Propos</a>
+    <a href="contact.html"><span class="icon">📍</span> Contact</a>
+  </nav>
+  <div class="sidebar-contact">
+    <p>Nous contacter</p>
+    <a href="tel:0134126182" class="phone">📞 01 34 12 61 82</a>
+    <p class="availability-note">Les clients peuvent passer un appel au 01 34 12 61 82 24h sur 24.</p>
+    <div class="sidebar-hours">Mar–Sam 10h30–19h<br>Lun 10h30–13h<br>Dim fermé</div>
+  </div>
+</aside>
+
+<main class="main-content">
+
+  <!-- HERO RÉCUP -->
+  <div class="recuperation-hero">
+    <h1>Récupération de <span>Données</span></h1>
+    <p>Votre PC ne démarre plus, votre disque dur est tombé, vos fichiers ont disparu après un formatage ? Ne paniquez pas — dans la grande majorité des cas, vos données peuvent être récupérées. Setup Avenir est votre spécialiste depuis 20 ans.</p>
+  </div>
+
+  <!-- POURQUOI & SCÉNARIOS -->
+  <section>
+    <div class="recup-grid">
+      <div>
+        <div class="section-label">Comprendre la situation</div>
+        <h2 class="section-title">Quand fait-on appel à la récupération de données ?</h2>
+        <p style="color: var(--texte2); margin-bottom: 20px;">Vos données ne disparaissent pas immédiatement d'un disque défaillant ou formaté. Elles restent souvent intactes sur le support — c'est l'accès qui est bloqué. La récupération consiste à contourner ce blocage et extraire vos fichiers.</p>
+
+        <div class="scenario-cards">
+          <div class="scenario-card">
+            <h3>🖥️ PC qui ne démarre plus</h3>
+            <p>Le système est planté, Windows ne se charge pas, mais vos documents photos et vidéos sont toujours sur le disque. Nous branchons le disque en externe pour extraire vos données avant toute réparation système.</p>
+          </div>
+          <div class="scenario-card gold">
+            <h3>💧 Disque dur externe tombé ou mouillé</h3>
+            <p>Un choc ou un dégât des eaux peut endommager la tête de lecture du disque dur mais les plateaux magnétiques restent souvent intacts. Plus vous attendez, plus les risques augmentent — venez rapidement.</p>
+          </div>
+          <div class="scenario-card bronze">
+            <h3>🗑️ Formatage ou suppression accidentelle</h3>
+            <p>Vous avez formaté par erreur ou vidé la corbeille trop vite ? Tant que le disque n'a pas été réécrit massivement, une récupération logicielle peut retrouver vos fichiers.</p>
+          </div>
+          <div class="scenario-card">
+            <h3>⚡ Panne électrique ou surtension</h3>
+            <p>Une coupure de courant brutale ou une surtension peut corrompre le système de fichiers. Le disque physique est souvent intact — la récupération est dans ce cas très souvent réussie.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="images/disquedurexterne.jpg" alt="Récupération disque dur externe" class="recup-img" style="margin-bottom:20px">
+        <img src="images/disquedur.jpg" alt="Disque dur interne" class="recup-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- TYPES DE SUPPORTS -->
+  <section>
+    <div class="section-label">Supports traités</div>
+    <h2 class="section-title">Tous Types de Supports</h2>
+    <p class="section-desc">Quel que soit votre support de stockage, nous avons l'équipement pour intervenir.</p>
+
+    <div class="tarifs-grid">
+
+      <div class="tarif-card">
+        <h4>💿 Disques Durs HDD (PC Windows)</h4>
+        <p>Récupération de données sur disque dur mécanique interne — que le PC soit HS ou le disque abîmé logiquement ou physiquement.</p>
+      </div>
+
+      <div class="tarif-card">
+        <h4>🍎 Disques Durs HDD (Mac)</h4>
+        <p>Les Mac utilisent un formatage HFS+/APFS différent de Windows. Nous maîtrisons les deux écosystèmes pour récupérer vos données Apple.</p>
+      </div>
+
+      <div class="tarif-card">
+        <h4>⚡ SSD / SSD NVMe / M.2 / PCI-Express</h4>
+        <p>Les SSD ne se récupèrent pas comme les HDD. Nous utilisons des méthodes spécifiques aux mémoires flash pour extraire vos fichiers des SSD SATA, NVMe, M.2 et cartes PCI-Ex.</p>
+      </div>
+
+      <div class="tarif-card">
+        <h4>🔌 Disque Non Reconnu</h4>
+        <p>Votre disque n'apparaît pas dans l'explorateur ou n'affiche pas sa capacité correcte ? Problème de partition, de table de fichiers ou d'électronique — nous diagnostiquons et récupérons.</p>
+      </div>
+
+      <div class="tarif-card">
+        <h4>📷 Carte SD / Micro-SD / Clé USB</h4>
+        <p>Photos de vacances sur une SD corrompue ? Clé USB qui ne s'ouvre plus ? Nous récupérons vos fichiers sur tous types de mémoire flash amovible.</p>
+      </div>
+
+      <div class="tarif-card">
+        <h4>💻 PC Équipé de 2 Disques Durs</h4>
+        <p>Si votre PC contient deux disques durs (ex : RAID 0, ou disque système + disque données), la récupération est facturée par disque. Tarif précisé lors du devis.</p>
+      </div>
+
+    </div>
+
+    <!-- Récupération labo -->
+    <div class="tarif-note" style="margin-top:30px">
+      <strong>🔬 Récupération en Laboratoire</strong><br>
+      Pour les cas les plus complexes (disque dur avec plateaux endommagés, tête de lecture cassée, puce NAND morte), nous orientons vers une récupération en salle blanche. <strong>Renseignez-vous directement en magasin</strong> pour une évaluation et un devis personnalisé.
+    </div>
+  </section>
+
+  <!-- CONSEILS -->
+  <section>
+    <div class="section-label">Nos conseils</div>
+    <h2 class="section-title">Ce que vous devez faire (et ne pas faire)</h2>
+    <div class="recup-grid">
+      <div>
+        <div class="scenario-cards">
+          <div class="scenario-card" style="border-left-color: var(--bleu)">
+            <h3>✅ À faire immédiatement</h3>
+            <p>Éteignez le PC ou débranchez le disque dès que vous constatez un problème. Moins le disque fonctionne après une panne, meilleures sont les chances de récupération. Amenez-nous le support le plus vite possible.</p>
+          </div>
+          <div class="scenario-card" style="border-left-color: #e04040">
+            <h3>❌ Ce qu'il ne faut surtout pas faire</h3>
+            <p>N'essayez pas de "réparer" vous-même avec des logiciels gratuits trouvés sur Internet — ils peuvent écraser les données. N'installez rien sur le disque défaillant. Ne le secouez pas si vous entendez un cliquetis.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="images/branchementpc.jpg" alt="Branchement PC" class="recup-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- TARIFS NOTE -->
+  <section style="background: var(--bg3)">
+    <div style="max-width: 700px;">
+      <div class="section-label">Tarification</div>
+      <h2 class="section-title">Tarifs sur Devis</h2>
+      <p style="color: var(--texte2); margin-bottom: 20px; font-size: 16px;">Les tarifs de récupération de données varient selon le type de support, l'étendue des dégâts et le volume à récupérer. Il n'existe pas de prix fixe universel — chaque cas est unique.</p>
+      <div class="tarif-note">
+        <strong>📍 Passez en magasin ou appelez-nous</strong> pour un premier diagnostic et recevoir un devis précis.<br>
+        <span style="display:block; margin-top:8px"><a href="tel:0134126182" style="color:var(--or)">01 34 12 61 82</a></span>
+        <span style="display:block; margin-top:4px; font-size: 13px; color: var(--bronze);">85 Rue des Chesneaux, 95160 Montmorency — Mar–Sam 10h30–19h, Lun 10h30–13h</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div>
+    <h4>Setup Avenir</h4>
+    <p>Expert informatique à Montmorency depuis 20 ans.<br>Spécialiste récupération de données.</p>
+  </div>
+  <div>
+    <h4>Navigation</h4>
+    <a href="index.html" style="display:block">Accueil</a>
+    <a href="prestation.html" style="display:block">Prestations</a>
+    <a href="contact.html" style="display:block">Contact</a>
+  </div>
+  <div>
+    <h4>Contact</h4>
+    <p>85 Rue des Chesneaux, 95160 Montmorency</p>
+    <p><a href="tel:0134126182" style="color:var(--or)">01 34 12 61 82</a></p>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <span>© 2026 Setup Avenir – Montmorency</span>
+  <span>Tous droits réservés</span>
+</div>
+</body>
+</html>

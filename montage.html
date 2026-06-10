@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montage PC – Setup Avenir Montmorency</title>
+  <link rel="icon" type="image/png" href="images/logo_transparent.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">☰</button>
+
+<aside class="sidebar">
+  <div class="sidebar-logo">
+    <img src="images/logo_transparent.png" alt="Setup Avenir Logo">
+    <div class="sidebar-logo-text">Setup Avenir</div>
+    <div class="sidebar-logo-sub">Montmorency</div>
+  </div>
+  <nav class="sidebar-nav">
+    <a href="index.html"><span class="icon">🏠</span> Accueil</a>
+    <a href="prestation.html"><span class="icon">🔧</span> Prestations</a>
+    <a href="montage.html" class="active"><span class="icon">🖥️</span> Montage</a>
+    <a href="recuperationdonnees.html"><span class="icon">💾</span> Récupération</a>
+    <a href="apropos.html"><span class="icon">ℹ️</span> À Propos</a>
+    <a href="contact.html"><span class="icon">📍</span> Contact</a>
+  </nav>
+  <div class="sidebar-contact">
+    <p>Nous contacter</p>
+    <a href="tel:0134126182" class="phone">📞 01 34 12 61 82</a>
+    <p class="availability-note">Les clients peuvent passer un appel au 01 34 12 61 82 24h sur 24.</p>
+    <div class="sidebar-hours">Mar–Sam 10h30–19h<br>Lun 10h30–13h<br>Dim fermé</div>
+  </div>
+</aside>
+
+<main class="main-content">
+
+  <div class="page-header">
+    <h1>Montage <span>PC</span> sur Mesure</h1>
+    <p>Du PC bureautique économique au monstre de puissance gaming, nous configurons et assemblons votre machine selon vos besoins et votre budget.</p>
+  </div>
+
+  <section>
+    <div class="section-label">Nos configurations</div>
+    <h2 class="section-title">Pour Tous les Usages</h2>
+    <div class="montage-grid">
+      <div class="montage-card">
+        <img src="images/pcarriere.jpg" alt="PC Bureautique">
+        <div class="montage-card-body">
+          <h3>PC Bureautique</h3>
+          <p>Pour la navigation, le traitement de texte, la comptabilité ou les emails : une configuration sobre et fiable, économique en énergie, silencieuse et durable.</p>
+        </div>
+      </div>
+      <div class="montage-card">
+        <img src="images/pcgameur.jpg" alt="PC Gaming">
+        <div class="montage-card-body">
+          <h3>PC Gaming</h3>
+          <p>Carte graphique NVIDIA ou AMD de dernière génération, processeur rapide, RAM DDR5, SSD NVMe — nous vous conseillons le meilleur rapport performance/prix pour votre jeu favori.</p>
+        </div>
+      </div>
+      <div class="montage-card">
+        <img src="images/pcouvert.jpg" alt="PC Professionnel">
+        <div class="montage-card-body">
+          <h3>PC Professionnel / Station de Travail</h3>
+          <p>Montage vidéo, CAO, rendu 3D, développement — une workstation dimensionnée pour vos logiciels exigeants, avec fiabilité professionnelle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label">Notre processus</div>
+    <h2 class="section-title">Comment ça se passe ?</h2>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h4>Consultation</h4>
+        <p>Vous nous décrivez votre usage, votre budget et vos priorités. On écoute.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h4>Devis</h4>
+        <p>Nous établissons une liste de composants optimisée avec rapport qualité-prix.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h4>Assemblage</h4>
+        <p>Montage soigné, gestion des câbles, pâte thermique, vérification de chaque connecteur.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <h4>Tests & Config</h4>
+        <p>Stress test, installation Windows, drivers, mises à jour — tout est prêt à l'emploi.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">05</div>
+        <h4>Livraison</h4>
+        <p>Vous repartez avec votre machine configurée, testée et expliquée.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: var(--bg3)">
+    <div class="recup-grid">
+      <div>
+        <div class="section-label">Mise à niveau</div>
+        <h2 class="section-title">Upgrade & Évolution</h2>
+        <p style="color: var(--texte2); margin-bottom: 16px;">Pas besoin d'acheter un PC neuf. Souvent, quelques composants changent tout :</p>
+        <div class="scenario-cards">
+          <div class="scenario-card">
+            <h3>🚀 SSD à la place du HDD</h3>
+            <p>Un SSD réduit le temps de démarrage de 60 à 80 %. La mise à niveau la plus impactante pour un PC vieillissant.</p>
+          </div>
+          <div class="scenario-card gold">
+            <h3>🧠 Ajout de RAM</h3>
+            <p>Passer de 8 à 16 Go de RAM fluidifie la multitâche et accélère les applications lourdes (Chrome, Photoshop, etc.).</p>
+          </div>
+          <div class="scenario-card bronze">
+            <h3>🎮 Nouvelle Carte Graphique</h3>
+            <p>Votre GPU date de plusieurs générations ? Un remplacement ciblé relance votre PC gaming sans tout changer.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="images/pcouvertbis.jpg" alt="Intérieur PC" class="recup-img">
+      </div>
+    </div>
+  </section>
+
+  <section style="text-align: center">
+    <div class="section-label">Prêt à commencer ?</div>
+    <h2 class="section-title">Demandez votre Devis Gratuit</h2>
+    <p class="section-desc" style="margin: 0 auto 30px;">Venez nous voir en magasin ou appelez-nous pour discuter de votre projet. Pas de frais de déplacement, pas d'engagement.</p>
+    <a href="contact.html" class="btn-primary">📍 Nous trouver</a>
+    &nbsp;&nbsp;
+    <a href="tel:0134126182" class="btn-secondary">📞 Appeler</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div>
+    <h4>Setup Avenir</h4>
+    <p>Expert informatique à Montmorency depuis 20 ans.</p>
+  </div>
+  <div>
+    <h4>Navigation</h4>
+    <a href="index.html" style="display:block">Accueil</a>
+    <a href="prestation.html" style="display:block">Prestations</a>
+    <a href="recuperationdonnees.html" style="display:block">Récupération Données</a>
+  </div>
+  <div>
+    <h4>Contact</h4>
+    <p>85 Rue des Chesneaux, 95160 Montmorency</p>
+    <p><a href="tel:0134126182" style="color:var(--or)">01 34 12 61 82</a></p>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <span>© 2026 Setup Avenir – Montmorency</span>
+  <span>Tous droits réservés</span>
+</div>
+</body>
+</html>
