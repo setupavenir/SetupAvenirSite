@@ -326,6 +326,34 @@ section:nth-child(even) { background: var(--bg2); }
 }
 
 /* ===== SERVICES GRID ===== */
+.cta-stack {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.cta-stack .btn-primary,
+.cta-stack .btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+}
+
+@media (max-width: 768px) {
+  .cta-stack {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .cta-stack .btn-primary,
+  .cta-stack .btn-secondary {
+    width: min(100%, 280px);
+  }
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
